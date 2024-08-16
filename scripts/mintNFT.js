@@ -3,7 +3,7 @@ require('dotenv').config();
 
 const tokenContractJSON = require("../artifacts/contracts/FuturisticCarNFT.sol/FuturisticCarNFT.json");
 
-const tokenAddress = "0x68cB3C52D704e1f57Abe9AB0a0632E6eEbA6704d"; // contract address
+const tokenAddress = "0x08f76014263369A9006f48F55f141A77e7a51d0d"; // contract address
 const tokenABI = tokenContractJSON.abi;
 const walletAddress = "0x578879CD86e72655173acf1706cbd5d7C5D0e2aa"; // my wallet address
 
