@@ -3,7 +3,7 @@ const fxRootContractABI = require("../fxRootContractABI.json");
 const tokenContractJSON = require("../artifacts/contracts/FuturisticCarNFT.sol/FuturisticCarNFT.json");
 
 const NUMBER_OF_TOKENS = 5; 
-const tokenAddress = "0x68cB3C52D704e1f57Abe9AB0a0632E6eEbA6704d"; 
+const tokenAddress = "0x08f76014263369A9006f48F55f141A77e7a51d0d"; 
 const tokenABI = tokenContractJSON.abi;
 const fxERC721RootTunnel = "0x9E688939Cb5d484e401933D850207D6750852053"; 
 const walletAddress = "0x578879CD86e72655173acf1706cbd5d7C5D0e2aa";
