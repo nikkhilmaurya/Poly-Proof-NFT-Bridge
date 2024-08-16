@@ -1,7 +1,7 @@
 const hre = require("hardhat");
 const tokenContractJSON = require("../artifacts/contracts/FuturisticCarNFT.sol/FuturisticCarNFT.json");
 
-const tokenAddress = "0x1685E96f22032BfAd5EEA4879471054E498C2584"; 
+const tokenAddress = "0x82d9858c509f88d7DCBde9946Fa0fD48DF162CC0"; 
 const tokenABI = tokenContractJSON.abi;
 const walletAddress = "0x578879CD86e72655173acf1706cbd5d7C5D0e2aa";
 
