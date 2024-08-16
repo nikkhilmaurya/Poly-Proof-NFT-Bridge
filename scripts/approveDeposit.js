@@ -2,7 +2,7 @@ const hre = require("hardhat");
 const fxRootContractABI = require("../fxRootContractABI.json");
 const tokenContractJSON = require("../artifacts/contracts/FuturisticCarNFT.sol/FuturisticCarNFT.json");
 
-const NUMBER_OF_TOKENS = 5; // Adjust as necessary
+const NUMBER_OF_TOKENS = 5; 
 const tokenAddress = "0x68cB3C52D704e1f57Abe9AB0a0632E6eEbA6704d"; 
 const tokenABI = tokenContractJSON.abi;
 const fxERC721RootTunnel = "0x9E688939Cb5d484e401933D850207D6750852053"; 
