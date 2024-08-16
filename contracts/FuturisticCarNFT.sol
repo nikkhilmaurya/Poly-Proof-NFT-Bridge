@@ -10,7 +10,7 @@ contract FuturisticCarNFT is ERC721A, Ownable {
     mapping(uint256 => string) private _nftPrompts;
 
     // Constructor initializing the NFT collection with a name and symbol
-    constructor() ERC721A("FuturisticCar", "FCAR") {
+    constructor() ERC721A("FuturisticCar", "FCAR") Ownable(msg.sender) {
         totalMinted = 0;
     }
 
