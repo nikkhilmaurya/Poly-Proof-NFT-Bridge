@@ -31,7 +31,7 @@ async function main() {
   ];
 
   // Call the contract's batch mint function with the token URIs and prompts
-  await nft.mintMultipleNFTs(tokenURIs, prompts);
+  await nft.mintNFT(tokenURIs, prompts);
   console.log(`Minted ${tokenURIs.length} NFTs to ${walletAddress}`);
 }
 
